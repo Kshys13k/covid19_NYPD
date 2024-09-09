@@ -6,7 +6,8 @@ import argparse
 from datetime import datetime
 
 #use argparse to get first and last date for the plot
-parser = argparse.ArgumentParser(description="create a plot of mortality from a given date to other given date")
+parser = argparse.ArgumentParser(description="create a plot of mortality from a given date to other given date",
+                                 epilog="example: python3 mortality_argparse.py 2021-01 2022-01")
 parser.add_argument('f', metavar='from', type=str, help= 'from this date')
 parser.add_argument('t', metavar='to', type=str, help= 'to this date')
 args = parser.parse_args()
