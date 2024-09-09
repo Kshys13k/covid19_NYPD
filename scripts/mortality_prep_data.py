@@ -18,7 +18,7 @@ def minus_6_days(date_str):
 
 df['date']=df['date'].apply(minus_6_days)
 
-#create df1 with cases and move the date so it will math with deaths (deaths come after new cases in 2 weeks on average)
+#create df1 with cases and move the date so it will match with deaths (deaths come after new cases in 2 weeks on average)
 df1=df[["date","new_cases_rolling_average"]]
 
 def add_two_weeks(date_str):
