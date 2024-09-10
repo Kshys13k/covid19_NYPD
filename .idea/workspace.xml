@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="387dfe19-22f2-4f3c-927a-abaa222ae7a6" name="Changes" comment="profiler">
+      <change afterPath="$PROJECT_DIR$/.idea/covid19_NYPD.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid19_NYPD/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid19_NYPD/plots/mortality_argparse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid19_NYPD/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/esp_for_plot.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/data/esp_for_plot.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/mortality.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/data/mortality.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/new_cases_and_deaths.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/data/new_cases_and_deaths.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/new_cases_and_deaths_pol.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/data/new_cases_and_deaths_pol.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/owid-covid-data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/data/owid-covid-data.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/owid-covid-data_poland.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/data/owid-covid-data_poland.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/owid-covid-data_spain.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/data/owid-covid-data_spain.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/pol_for_plot.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/data/pol_for_plot.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/regions.csv" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/data/regions.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/comparison.png" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/plots/comparison.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/comparison_pop.png" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/plots/comparison_pop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/covid19_NYPD_mortality_argpase_profiler.png" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/plots/covid19_NYPD_mortality_argpase_profiler.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/plots/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/map.png" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/plots/map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/mortality.png" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/plots/mortality.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/mortality_argparse.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/new_cases_and_deaths.png" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/plots/new_cases_and_deaths.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/total_cases_and_deaths.png" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/plots/total_cases_and_deaths.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/.ipynb_checkpoints/ourworldindata_extract_data-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/.ipynb_checkpoints/ourworldindata_extract_data-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/.ipynb_checkpoints/playground-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/.ipynb_checkpoints/playground-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/.ipynb_checkpoints/prepering_data_for_plots-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/.ipynb_checkpoints/prepering_data_for_plots-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/comparison.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/comparison.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/comparison_pop.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/comparison_pop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/map.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/mortality.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/mortality.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/mortality_argparse.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/mortality_argparse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/mortality_prep_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/mortality_prep_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/new_cases_and_deaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/new_cases_and_deaths.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/new_cases_and_deaths_prep_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/new_cases_and_deaths_prep_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/ourworldindata_extract_data.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/ourworldindata_extract_data.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/prepering_data_for_plots.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/prepering_data_for_plots.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/total_cases_and_deaths.py" beforeDir="false" afterPath="$PROJECT_DIR$/covid19_NYPD/scripts/total_cases_and_deaths.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Kshys13k"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Kshys13k/covid19_NYPD.git",
+    "accountId": "df5459d6-d075-4acd-afc8-d50c949e4af3"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2lq6n0p338OOO4tI21tF9uUnqaZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.mortality_argparse.executor&quot;: &quot;Profiler&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/covid19_NYPD" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="mortality_argparse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="covid19_NYPD" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scripts/mortality_argparse.py" />
+      <option name="PARAMETERS" value="2021-01 2021-06" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.mortality_argparse" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-PY-242.21829.153" />
+        <option value="bundled-python-sdk-464836ebc622-b74155a9e76b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="387dfe19-22f2-4f3c-927a-abaa222ae7a6" name="Changes" comment="" />
+      <created>1725895422538</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725895422538</updated>
+      <workItem from="1725895423944" duration="6179000" />
+      <workItem from="1725958743590" duration="1857000" />
+    </task>
+    <task id="LOCAL-00001" summary="copy all files from previous project">
+      <option name="closed" value="true" />
+      <created>1725895596871</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725895596871</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add plot generating script that uses argparse">
+      <option name="closed" value="true" />
+      <created>1725900149323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1725900149323</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update help in argparse script">
+      <option name="closed" value="true" />
+      <created>1725900275685</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725900275685</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added requiremente.txt">
+      <option name="closed" value="true" />
+      <created>1725901100728</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1725901100728</updated>
+    </task>
+    <task id="LOCAL-00005" summary="profiler">
+      <option name="closed" value="true" />
+      <created>1725901508478</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1725901508478</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="copy all files from previous project" />
+    <MESSAGE value="add plot generating script that uses argparse" />
+    <MESSAGE value="update help in argparse script" />
+    <MESSAGE value="added requiremente.txt" />
+    <MESSAGE value="profiler" />
+    <option name="LAST_COMMIT_MESSAGE" value="profiler" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/covid19_NYPD/scripts/mortality_prep_data.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/covid19_NYPD$mortality_argparse.coverage" NAME="mortality_argparse Coverage Results" MODIFIED="1725900019343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+  </component>
+</project>
