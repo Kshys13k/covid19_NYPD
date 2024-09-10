@@ -11,6 +11,7 @@ setup(
         "plotly",
         "requests"
     ],
+
     author='Krzysiek Terlecki',
     author_email='kkterlecki@gmail.com',
     description='project for NYPD course, University of Warsaw Faculty of Mathematics, Informatics and Mechanics',
